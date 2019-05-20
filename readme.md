@@ -1,9 +1,10 @@
 # docs
 Documentation of the Soda web API
 
-[Architecture](./architecture)
+[Architecture](architecture.md)
 
 ### Web API
-[Web API overview](./web-api-overview)
-[Authentication](./authentication)
-[Tests](./tests)
+
+* [Web API overview](web-api-overview.md)
+* [Authentication](authentication.md)
+* [Tests](tests.md)
