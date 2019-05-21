@@ -6,10 +6,10 @@ Table of contents
 
 ### Architecture
 
-[Architecture](architecture.md)
+[Architecture](pages/architecture.md)
 
 ### Web API
 
-* [Web API overview](web-api-overview.md)
-* [Authentication](authentication.md)
-* [Create an S3 dataset](dataset-create-s3.md)
+* [Web API overview](pages/web-api-overview.md)
+* [Authentication](pages/authentication.md)
+* [Create an S3 dataset](pages/dataset-create-s3.md)
