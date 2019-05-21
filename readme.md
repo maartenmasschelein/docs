@@ -1,5 +1,10 @@
-# docs
-Documentation of the Soda web API
+# Soda documentation
+
+Soda's technical documentation
+
+Table of contents
+
+### Architecture
 
 [Architecture](architecture.md)
 
@@ -7,4 +12,4 @@ Documentation of the Soda web API
 
 * [Web API overview](web-api-overview.md)
 * [Authentication](authentication.md)
-* [Tests](tests.md)
+* [Create an S3 dataset](dataset-create-s3.md)
