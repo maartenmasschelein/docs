@@ -1,5 +1,5 @@
 # Soda on AWS
 
-...
+Installation is done with Terraform script.
 
-![](google analytics link)
+![Architecture](img/architecture.png)
