@@ -2,4 +2,4 @@
 
 Installation is done with Terraform script.
 
-![Architecture](img/architecture.png)
+![Architecture](img/aws-overview.png)
