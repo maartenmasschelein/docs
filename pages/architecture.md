@@ -22,7 +22,7 @@ deployed in a new account under the control of the client.
 The data is typically located in a separate account which 
 has more stringent control.
 
-![Cloud accounts](img/cloud-accounts.png) 
+<img src="img/cloud-accounts.png">
 
 Whenever Soda stores data like failed rows or sample 
 data, it does so in a configurable storage location.  This
@@ -97,6 +97,8 @@ TODO What do the logs contain, where are they sent. They do not contain the actu
 ![Architecture](img/architecture.png)
 
 Installation is done with Terraform script.
+
+
 
 # Soda on Azure
 
