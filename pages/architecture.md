@@ -22,7 +22,7 @@ deployed in a new account under the control of the client.
 The data is typically located in a separate account which 
 has more stringent control.
 
-<img src="img/cloud-accounts.png">
+![](img/cloud-accounts.png | width=500px)
 
 Whenever Soda stores data like failed rows or sample 
 data, it does so in a configurable storage location.  This
