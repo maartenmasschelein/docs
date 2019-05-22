@@ -6,7 +6,11 @@ Table of contents
 
 ### Architecture
 
-[Architecture](pages/architecture.md)
+* [Architectural principles](pages/architectural-principles.md)
+* [Architectural components](pages/architectural-components.md)
+* [Soda on AWS](pages/soda-on-aws.md)
+* [Soda on Azure](pages/soda-on-azure.md)
+* [Soda on GCP](pages/soda-on-gcp.md)
 
 ### Web API
 
