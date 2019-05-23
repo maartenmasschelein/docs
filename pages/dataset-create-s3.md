@@ -1,13 +1,13 @@
 ### Create an S3 connection
 ```
 > POST /api/command
-  Cookie: token=6aQLL0m5RjbeIITJ_K-wsuedM4U
+  Cookie: token=ndPpq91CL9uqj0A0hyRgSVYZhnQ
   Content-Type: application/json
   {
     "type": "createDatasource",
     "authentication": {
       "token": "testtoken",
-      "organisationId": "org24"
+      "organisationId": "org26"
     },
     "datasource": {
       "type": "awsS3",
@@ -22,30 +22,30 @@
 < HTTP/1.1 200 OK
   {
     "type": "awsS3",
-    "id": "datasource25",
-    "organisationId": "org24",
+    "id": "datasource27",
+    "organisationId": "org26",
     "name": "Datalake",
     "region": "eu-west-1",
-```
     "bucketName": "data-lake-bucket-name",
-### Create a snapshot file dataset
-```
     "accessKey": "***AWS_ACCESS_KEY***",
     "secretKey": "***AWS_SECRET_KEY***"
   }
+```
+### Create a snapshot file dataset
+```
 > POST /api/command
-  Cookie: token=6aQLL0m5RjbeIITJ_K-wsuedM4U
+  Cookie: token=ndPpq91CL9uqj0A0hyRgSVYZhnQ
   Content-Type: application/json
   {
     "type": "createDataset",
     "authentication": {
       "token": "testtoken",
-      "organisationId": "org24"
+      "organisationId": "org26"
     },
     "dataset": {
       "type": "snapshotFile",
       "name": "Customers",
-      "datasourceId": "datasource25",
+      "datasourceId": "datasource27",
       "filePattern": [
         "master/",
         "yyyy/MM/dd",
@@ -59,10 +59,14 @@
 < HTTP/1.1 200 OK
   {
     "type": "snapshotFile",
-    "id": "dataset26",
-    "organisationId": "org24",
+    "id": "dataset28",
+    "organisationId": "org26",
     "name": "Customers",
-    "datasourceId": "datasource25",
+    "datasourceId": "datasource27",
     "filePattern": [
-```
       "master/",
+      "yyyy/MM/dd",
+      "/customers.parquet"
+    ],
+```
+    "fileType": "parquet"
