@@ -1,7 +1,7 @@
 ### Create a missing values test
 ```
 > POST /api/command
-  Cookie: token=ndPpq91CL9uqj0A0hyRgSVYZhnQ
+  Cookie: token=8WUolP6Kr-y4KeCZw20LsolpJnQ
   Content-Type: application/json
   {
     "type": "createTest",
@@ -41,6 +41,8 @@
           "id": "metric24",
           "testId": "test23",
           "datasetId": "dataset123",
-```
           "columnName": "annualManagementFee"
         }
+```
+      },
+      "right": {

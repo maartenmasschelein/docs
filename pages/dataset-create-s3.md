@@ -1,7 +1,7 @@
 ### Create an S3 connection
 ```
 > POST /api/command
-  Cookie: token=ndPpq91CL9uqj0A0hyRgSVYZhnQ
+  Cookie: token=8WUolP6Kr-y4KeCZw20LsolpJnQ
   Content-Type: application/json
   {
     "type": "createDatasource",
@@ -26,15 +26,15 @@
     "organisationId": "org26",
     "name": "Datalake",
     "region": "eu-west-1",
+```
     "bucketName": "data-lake-bucket-name",
+### Create a snapshot file dataset
+```
     "accessKey": "***AWS_ACCESS_KEY***",
     "secretKey": "***AWS_SECRET_KEY***"
   }
-```
-### Create a snapshot file dataset
-```
 > POST /api/command
-  Cookie: token=ndPpq91CL9uqj0A0hyRgSVYZhnQ
+  Cookie: token=8WUolP6Kr-y4KeCZw20LsolpJnQ
   Content-Type: application/json
   {
     "type": "createDataset",
@@ -68,5 +68,6 @@
       "yyyy/MM/dd",
       "/customers.parquet"
     ],
-```
     "fileType": "parquet"
+  }
+```
