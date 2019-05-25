@@ -1,13 +1,13 @@
 ### Create a missing values test
 ```
 > POST /api/command
-  Cookie: token=8WUolP6Kr-y4KeCZw20LsolpJnQ
+  Cookie: token=e9V4VatmRNcfumyfguCVcQH9wG8
   Content-Type: application/json
   {
     "type": "createTest",
     "authentication": {
       "token": "testtoken",
-      "organisationId": "org22"
+      "organisationId": "org20"
     },
     "test": {
       "title": "All Funds except for the Z-funds should have an annual management fee.",
@@ -30,7 +30,7 @@
   }
 < HTTP/1.1 200 OK
   {
-    "id": "test23",
+    "id": "test21",
     "title": "All Funds except for the Z-funds should have an annual management fee.",
     "expression": {
       "type": "lessThan",
@@ -38,11 +38,12 @@
         "type": "metric",
         "metric": {
           "type": "missingValuesPercentage",
-          "id": "metric24",
-          "testId": "test23",
+          "id": "metric22",
+          "testId": "test21",
           "datasetId": "dataset123",
           "columnName": "annualManagementFee"
         }
-```
       },
+```
       "right": {
+        "type": "number",
