@@ -18,3 +18,8 @@ Table of contents
 * [Authentication](pages/authentication.md)
 * [Create an S3 dataset](pages/dataset-create-s3.md)
 * [Create a missing values test](pages/test-create-missing-values.md)
+
+### Installation
+
+* [Install Soda on an AWS account](pages/install-soda.md)
+* [Adding a connection](pages/adding-a-connection.md)
