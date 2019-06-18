@@ -23,3 +23,4 @@ Table of contents
 
 * [Install Soda on an AWS account](pages/install-soda.md)
 * [Adding a connection](pages/adding-a-connection.md)
+* [Adding S3 notifications](pages/adding-s3-notifications.md) 
