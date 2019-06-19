@@ -12,8 +12,8 @@
     "settings": {
       "type": "collibra",
       "url": "https://shape.collibra.com",
-      "username": "Admin",
-      "password": "FujFezOl7quaroo",
+      "username": "***",
+      "password": "***",
       "communityName": "Soda community",
       "domainName": "Soda domain"
     }
@@ -23,8 +23,8 @@
     "type": "collibra",
     "id": "settings2",
     "url": "https://shape.collibra.com/",
-    "username": "Admin",
-    "password": "FujFezOl7quaroo",
+    "username": "***",
+    "password": "***",
     "communityName": "Soda community",
     "communityId": "e4fe8f0d-ad0a-4af7-9633-9b98988274ab",
     "domainName": "Soda domain",
