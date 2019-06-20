@@ -8,6 +8,20 @@ In order to install Soda on an AWS account the following prerequisites
 * AWS account id
 * AWS account credentials
 
+##### Creating a new account
+
+If the client has created an account and provides us with the credentials, 
+this step can be skipped.
+
+If it's a new Soda account on which we want to install Soda, go to 
+the billing account (06***28).  Click your name in the top right corner, 
+then select `My organisation`.  Click `Add account`, then select `Create account`.
+
+If you don't know how to get a user in the newly created account, this is 
+my vague recollection: You have to go to the root account login page.  
+Then click reset password.  Then you get an email to the initial address 
+that was given.   
+
 ##### Credentials
 We need `aws_access_key_id` & `aws_secret_access_key` in order to install 
 Soda on the account.  The credentials should allow for programmatic access.
